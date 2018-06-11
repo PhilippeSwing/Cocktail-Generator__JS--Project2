@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fruit Salad</title>
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body class="body wrapper__prim">
+<!-- HEADER -->
+	<header class="wrapper__sec">
+		<h1 class="header__main">Let's make a cocktail!</h1>
+	</header>
+<!-- HEADER ENDS -->
+<!-- ======================== -->
+
+<!-- ======================== -->
+<!-- MAIN -->
+	<main class="main wrapper__sec">
+<!-- ==Form== -->
+		<section class="user-input-form">
+			<form action="">
+				<h2 class="form__header">Ingredients</h2>
+				<!-- Spirits -->
+				<div class="form__spirits">
+					<p>1. Choose your spirit</p>
+
+					<label for="vodka">Vodka</label>
+					<input type="radio" id="vodka" name="spirits" value="vodka">
+
+					<label for="rum">Rum</label>
+					<input type="radio" id="rum" name="spirits" value="rum">
+				</div>
+				<!-- Liqueur -->
+				<div class="form__liqueur">
+					<p>2. Choose your liqueur</p>
+
+					<label for="curaçao">Curaçao</label>
+					<input type="radio" id="curaçao" name="liqueur" value="curaçao">
+
+					<label for="amaretto">Amaretto</label>
+					<input type="radio" id="amaretto" name="liqueur" value="amaretto">
+				</div>
+				<!-- Base Liquid -->
+				<div class="form__liquid">
+					<p>3. Choose your base liquid</p>
+
+					<label for="orange">Orange</label>
+					<input type="radio" id="orange" name="liquid" value="orange">
+					
+					<label for="pineapple">Pineapple</label>
+					<input type="radio" id="pineapple" name="liquid" value="pineapple">
+
+					<label for="cranberry">Cranberry</label>
+					<input type="radio" id="cranberry" name="liquid" value="cranberry">
+				</div>
+
+				<input class="button__submit" type="submit" value="Show me my cocktail">
+			</form>
+<!-- ==Instructions Button== -->
+			<button class="button__instructions">Instructions</button>
+<!-- ==Reset Button== -->
+			<button class="button__reset">Reset</button>
+		</section>
+<!-- ==Form Ends== -->
+
+<!-- ==Cocktail Output== -->
+		<section class="comp-output">
+			<h2 class="cocktail__header">Empty Glass ☹️</h2>
+		
+			<div class="cocktail__image__container">
+				<img src="https://www.barware.com.au/assets/full/LB3616.jpg" alt="Empty cocktail glass" class="cocktail__image">
+			</div>
+		</section>
+
+		<section class="instructions__overlay toggle-overay">
+			<a class="close__button">close</a>
+			<ul class="instructions__list"></ul>
+		</section>
+<!-- ==Cocktail Output Ends== -->
+	</main>
+<!-- MAIN ENDS -->
+<!-- ======================== -->
+
+<!-- ======================== -->
+<!-- FOOTER -->
+	<footer class="wrapper_sec">
+		<h3 class="footer__copyright">Copyright 2018 Philbo Baggins</h3>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

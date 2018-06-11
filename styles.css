@@ -1,0 +1,148 @@
+/*body {
+	background-color: blue;
+}*/
+/*GENERAL STYLES*/
+
+html {
+	font-size: 62.5%;
+}
+/*==Typography==*/
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h1, h2 {
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 1px 2px #555;
+	letter-spacing: 2px;
+	color: saddlebrown;
+}
+
+form p {
+	font-size: 2rem;
+}
+
+form label {
+	font-size: 1.5rem;
+}
+/*==Typography Ends==*/
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper__prim {
+	min-width: 1440px;
+}
+
+.wrapper__sec {
+	min-width: 1000px;
+}
+
+/*GENERAL STYLES ENDS*/
+/*========================*/
+
+/*========================*/
+/*MAIN STYLES*/
+/*==Page Background==*/
+.body {
+	background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("http://www.centralcocktailbar.com/uploads/vetrine/00010560/image/IMG-20170121-WA0007.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 100%;
+	min-height: 100vh;
+}
+
+.main {
+	display: flex;
+	position: relative;
+}
+/*==Page Header==*/
+.header__main {
+	text-align: center;
+}
+/*==Cocktail User Input Form==*/
+.user-input-form {
+	text-align: center;
+	width: 50%;
+}
+
+input[type=submit],
+.button__instructions,
+.button__reset {
+	font-size: 1.5rem;
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 30px;
+}
+
+input[type=submit]:hover,
+.button__instructions:hover,
+.button__reset:hover {
+	background-color: darkorange;
+}
+/*==Cocktail User Output==*/
+.comp-output {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.cocktail__image {
+	display: block;
+	width: 100%;
+	border-radius: 5%;
+	box-shadow: 0px 0px 20px #000;
+}
+/*==Instructions Overlay==*/
+.instructions__overlay {
+	margin-top: -200px;
+	width: calc(50% - 50px);
+	background-color: bisque;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #000;
+	padding: 25px;
+}
+
+.toggle-overay {
+	display: none;
+}
+
+.instructions__list {
+	padding-left: 0;
+}
+
+.instructions__list li {
+	font-size: 2.5rem;
+	font-style: italic;
+	list-style: none;
+}
+
+.close__button {
+	font-size: 2rem;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 2%;
+}
+/*MAIN STYLES ENDS*/
+/*========================*/
+
+/*========================*/
+/*FOOTER STYLES*/
+
+/*FOOTER STYLES ENDS*/
