@@ -109,7 +109,7 @@ input[type=submit]:hover,
 	width: calc(50% - 50px);
 	background-color: bisque;
 	position: absolute;
-	top: 50%;
+	top: 280px;
 	right: 0%;
 	border-radius: 20px;
 	box-shadow: 0 0 20px #000;
