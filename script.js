@@ -100,6 +100,7 @@
 
 // DRYER METHOD
 // ========================
+// ==Cocktail Array==
 const cocktailCreations = [
 	{
 		spirit: 'vodka',
@@ -209,7 +210,9 @@ const cocktailCreations = [
 		instructions: ['1 1/2 oz of rum (substitute with white rum)', '1 oz of Triple Sec', '1 oz of Cranberry Juice', '1/2 oz of Lime Juice', 'Shake all with ice and strain into a chilled martini glass. Garnish with a flamed orange peel.']
 	}
 ];
+// ==Cocktail Array Ends==
 
+// ==Form Functionlity==
 $(document).ready(function() {
 	$('form').on('submit', function() {
 		event.preventDefault();
@@ -227,7 +230,7 @@ $(document).ready(function() {
 				return value;
 			}
 		});
-		
+
 // ========================		
 // LESS DRY METHOD
 	// 	const spiritOption = cocktailCreations[userSpirit];
@@ -285,3 +288,4 @@ $(document).ready(function() {
 		});
 	});
 });
+// ==Form Functionality Ends==

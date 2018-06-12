@@ -1,8 +1,4 @@
-/*body {
-	background-color: blue;
-}*/
 /*GENERAL STYLES*/
-
 html {
 	font-size: 62.5%;
 }
@@ -34,6 +30,7 @@ form label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .wrapper__prim {
@@ -43,7 +40,6 @@ form label {
 .wrapper__sec {
 	min-width: 1000px;
 }
-
 /*GENERAL STYLES ENDS*/
 /*========================*/
 
@@ -144,5 +140,10 @@ input[type=submit]:hover,
 
 /*========================*/
 /*FOOTER STYLES*/
-
+.footer {
+	border: 1px solid red;
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
 /*FOOTER STYLES ENDS*/
